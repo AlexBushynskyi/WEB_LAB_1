@@ -1,0 +1,98 @@
+@font-face {
+    font-family: arial-nova;
+    src: url(../font/ArialNova.ttf);
+}
+
+body {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	background: #4682B4;
+	text-align: center;
+	font-family: arial-nova;
+	font-size: 26pt;
+	line-height: 1.5;
+}
+
+span {
+	text-align: center;
+}
+
+p {
+	text-align: left;
+}
+
+ul {
+	text-align: left;
+	margin-left: 80px;
+}
+
+img {
+	margin-bottom: 20px;
+}
+
+.parent {
+	width: 1400px;
+	min-height: 20px;
+	background: white;
+	margin: auto;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+
+.parent2 {
+	width: 1080px;
+	min-height: 20px;
+	margin: auto;
+	overflow:inherit;
+}
+
+.row1 {
+	margin-top: 20px;
+}
+
+.row2 {
+	width: 510px;
+	margin: auto;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#float_right {
+	float: right;
+}
+
+.row3 {
+	width: 510px;
+	margin: auto;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#button_large_down {
+	margin-top: 50px;
+	margin-bottom: 60px;
+}
+
+#footer_text {
+	width: 1280px;
+	font-size: 20pt;
+	background: #4682B4;
+	margin-bottom: 50px;
+	margin-left: 60px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+#center_text_footer {
+	text-align: center;
+	color: white;
+}
+
+#footer_image {
+	width: 64px;
+	height: 64px;
+}
+
+
+
