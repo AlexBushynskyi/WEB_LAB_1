@@ -1,0 +1,75 @@
+@font-face {
+    font-family: arial-nova;
+    src: url(../font/ArialNova.ttf);
+}
+
+body {
+	margin-top: 50px;
+	background: #D3D3D3;
+	text-align: center;
+	font-family: arial-nova;
+	font-size: 26pt;
+	line-height: 1.5;
+}
+
+span {
+	text-align: center;
+}
+
+p {
+	text-align: left;
+}
+.parent {
+	width: 1280px;
+	min-height: 20px;
+	background: white;
+	margin: auto;
+	overflow:hidden;
+}
+
+.parent2 {
+	width: 1080px;
+	min-height: 20px;
+	overflow:auto;
+	margin: auto;
+	overflow:inherit;
+}
+
+.row1 {
+	margin-top: 70px;
+}
+
+.row2 {
+	width: 510px;
+	margin: auto;
+	float: left;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#float_right {
+	float: right;
+}
+
+.row3 {
+	width: 320px;
+	margin: auto;
+	float: left;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#margin {
+	margin-left: 60px;
+}
+
+#button_large_down {
+	margin-top: 50px;
+	margin-bottom: 60px;
+}
+
+#footer_text {
+	font-size: 16pt;
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 40px;
+}
